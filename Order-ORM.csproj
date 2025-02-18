@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net472</TargetFramework> <!-- Targeting .NET Framework 4.7.2 -->
+    <RootNamespace>OrderORM</RootNamespace>
+    <AssemblyName>Order-ORM</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="fo-dicom" Version="4.0.8" /> <!-- Compatible with .NET 4.7.2 -->
+    <PackageReference Include="System.Data.SQLite" Version="1.0.118" /> <!-- SQLite for .NET Framework -->
+    <Reference Include="System.Configuration" /> <!-- For App.config -->
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="App.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>

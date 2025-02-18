@@ -19,6 +19,12 @@ See the [LICENSE](LICENSE.md) file for full terms.
   - fo-dicom (4.0.8)
   - System.Data.SQLite (1.0.118)
 
+## Why .NET Framework 4.7.2?
+
+- **Windows 10 Compatibility**: Included in Windows 10 updates (version 1803 and later), so no additional runtime installation is needed.
+- **fo-dicom Support**: Version 4.0.8 works with .NET Framework 4.7.2.
+- **SQLite**: Fully supported via `System.Data.SQLite`.
+
 ## Installation
 
 1. Clone the repository
@@ -77,3 +83,4 @@ When using or modifying this software, please include:
 ## Contact
 
 For commercial licensing: [sales@fluxinc.co (mailto:sales@fluxinc.co)]
+
