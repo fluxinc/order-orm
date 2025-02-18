@@ -21,7 +21,7 @@ See the [LICENSE](LICENSE.md) file for full terms.
 
 ## Why .NET Framework 4.7.2?
 
-- **Windows 10 Compatibility**: Included in Windows 10 updates (version 1803 and later), so no additional runtime installation is needed.
+- **Windows 10 Compatibility**: Most use cases are for legacy medical software frequently installed on Windows 10, and this only supports .NET <= 4.7.2.
 - **fo-dicom Support**: Version 4.0.8 works with .NET Framework 4.7.2.
 - **SQLite**: Fully supported via `System.Data.SQLite`.
 
