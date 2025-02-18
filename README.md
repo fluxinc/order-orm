@@ -10,7 +10,7 @@ This software is released under the **Medical Software Academic and Restricted U
 - **Competitors**: Prohibited from use.
 - **Clients**: Prohibited from use by clients of licensees.
 
-See the [LICENSE](LICENSE) file for full terms.
+See the [LICENSE](LICENSE.md) file for full terms.
 
 ## Requirements
 
